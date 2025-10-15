@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="PROFIL_WEB2.css" />
+    <title>Mengenal HTML, CSS, JS & Tailwind</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Delius&family=Delius+Swash+Caps&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <nav id="sidebar" class="sidebar">
+      <div class="sidebar-header">
+        <button id="toggleSidebar" class="menu-btn">☰</button>
+        <span class="sidebar-title">Menu</span>
+      </div>
+      <ul class="sidebar-menu">
+        <li>
+          <a href="PROFIL_WEB2.html">👤 <span>Profil</span></a>
+        </li>
+        <li>
+          <a href="jadwal.html">📅 <span>Jadwal Kuliah</span></a>
+        </li>
+        <li>
+          <a href="hobi.html">🎨 <span>Hobi</span></a>
+        </li>
+        <li>
+          <a href="anime.html">🎬 <span>Rekomendasi Anime</span></a>
+        </li>
+        <li>
+          <a href="teman.html">🧑‍🤝‍🧑 <span>Daftar Teman</span></a>
+        </li>
+        <hr />
+        <li>
+          <a href="fitur1.html" class="active"
+            >🌐 <span>Mengenal HTML, CSS, JS & Tailwind</span></a
+          >
+        </li>
+        <li>
+          <a href="fitur2.html"
+            >🧩 <span>Tata Cara Membuat Website Sederhana</span></a
+          >
+        </li>
+        <li>
+          <a href="fitur3.html"
+            >💬 <span>Kesan & Pesan Belajar Pemrograman Web</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <div class="container">
+        <header>
+          <h1>🌐 Mengenal HTML, CSS, JavaScript, dan Tailwind</h1>
+          <p style="color: var(--muted); margin-top: 8px">
+            Dasar utama dalam membangun tampilan dan interaktivitas web.
+          </p>
+          <button id="toggleMode" class="btn">🌙 Dark Mode</button>
+        </header>
+
+        <section class="card" style="margin-top: 24px">
+          <h2>HTML (HyperText Markup Language)</h2>
+          <p>
+            HTML adalah bahasa yang digunakan untuk menampilkan dokumen web.
+            HTML bukanlah bahasa pemrograman, melainkan bahasa markah,
+            dikarenakan HTML tidak memiliki variabel fungsi, dan sebagian besar
+            variabel-variabelnya merupakan bagian dari bahasa pemrograman.
+            Setiap elemen dibentuk dengan tag seperti <code>&lt;h1&gt;</code>,
+            <code>&lt;p&gt;</code>, dan <code>&lt;img&gt;</code>.
+          </p>
+          <p>
+            HTML berguna untuk menampilkan konten, menghubungkan (link) antar
+            halaman, memberi struktur dan informasi terkait dengan sebuah
+            halaman web. Konten sebuah web tidak hanya terbatas pada teks saja,
+            melainkan konten interaktif lainnya seperti video, audio, gambar dan
+            animasi dapat disisipkan dan ditampilkan pada halaman web.
+          </p>
+        </section>
+
+        <section class="card">
+          <h2>CSS (Cascading Style Sheets)</h2>
+          <p>
+            CSS ini adalah bahasa dalam pemrograman untuk menentukan bagaimana
+            dokumen itu disajikan. CSS berfungsi untuk menjelaskan dan menata
+            tampilan elemen yang tertulis pada bahasa markup, salah satunya
+            adalah HTML. Dalam arti lain, CSS-lah yang menjelaskan bagaimana
+            elemen HTML di balik layar ditampilkan sedemikian rupa di layar
+            website nanti. Baik HTML maupun CSS, keduanya saling melengkapi.
+          </p>
+          <p>
+            CSS berfungsi: memisahkan konten dan desain, pengaturan tampilan
+            visual, desain responsif, meningkatkan aksesbilitas, mengurangi
+            ukuran file HTML, desain konsisten, mendukung reusability, serta
+            meningkatkan User Experience (UX).
+          </p>
+        </section>
+
+        <section class="card">
+          <h2>JavaScript</h2>
+          <p>
+            JavaScript termasuk bahasa serbaguna yang bisa dipakai full-stack,
+            dari tampilan hingga pengolahan data di backend. Javascript
+            merupakan bahasa script yang dimana bahasa script adalah bahasa
+            pemrograman yang ringan.
+          </p>
+          <p>
+            JavaScript berfungsi untuk memberi ineraktivitas pada website, mampu
+            memanipulasi DOM, serta bisa berkomunikasi dengan server tanpa harus
+            me-reload halaman.
+          </p>
+        </section>
+
+        <section class="card">
+          <h2>Tailwind CSS</h2>
+          <p>
+            Tailwind adalah sebuah utility-first CSS framework yang memungkinkan
+            pengembang untuk membangun desain yang kompleks dengan mudah.
+            Tailwind memberikan utility classes yang dapat digunakan untuk
+            menyesuaikan tampilan elemen HTML dengan cepat.
+          </p>
+          <p>
+            Tailwind dipilih karena efisiensi dan fleksibilitas. Tailwind juga
+            membantu menjaga ukuran file akhir tetap kecil. Tailwind juga
+            memudahkan kolaborasi dengan tim.
+          </p>
+          <p>
+            Untuk memahami Tailwind secara cepat, bisa dilihat melalui video
+            yang di bawah:
+          </p>
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/mr15Xzb1Ook?si=uKRKP1flCH67gGWg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <footer id="footerText">
+          "Kuasai dasar-dasarnya, maka kreativitasmu tak terbatas."
+        </footer>
+      </div>
+    </div>
+
+    <script src="PROFIL_WEB2.js"></script>
+  </body>
+</html>
